@@ -1,4 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import kkUI from '@/libs/kk-ui'
 
-createApp(App).mount('#app')
+// let vm = new Vue()
+
+createApp(App).use(kkUI).mount('#app')
